@@ -26,11 +26,9 @@
 		A049598F285B259A00CE617D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0495991285B259A00CE617D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0495999285B5C1700CE617D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		A0EE57F8286357F500851153 /* incorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incorrect.png; sourceTree = "<group>"; };
-		A0EE57F92863586900851153 /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
-		A0EE57FA286358B200851153 /* sakuragi.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sakuragi.jpeg; sourceTree = "<group>"; };
-		A0EE57FB286358B500851153 /* mitui.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mitui.jpeg; path = ../../../../Downloads/image3/mitui.jpeg; sourceTree = "<group>"; };
-		A0EE57FC286358CC00851153 /* takamiya.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = takamiya.jpeg; sourceTree = "<group>"; };
+		A0EE57FD2864A5AC00851153 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		A0EE57FE2864A5B200851153 /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		A0EE57FF2864A5B700851153 /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,11 +69,9 @@
 				A049598C285B259A00CE617D /* Assets.xcassets */,
 				A049598E285B259A00CE617D /* LaunchScreen.storyboard */,
 				A0495991285B259A00CE617D /* Info.plist */,
-				A0EE57F8286357F500851153 /* incorrect.png */,
-				A0EE57F92863586900851153 /* correct.png */,
-				A0EE57FA286358B200851153 /* sakuragi.jpeg */,
-				A0EE57FB286358B500851153 /* mitui.jpeg */,
-				A0EE57FC286358CC00851153 /* takamiya.jpeg */,
+				A0EE57FD2864A5AC00851153 /* image1.jpg */,
+				A0EE57FE2864A5B200851153 /* image2.jpg */,
+				A0EE57FF2864A5B700851153 /* image3.jpg */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";

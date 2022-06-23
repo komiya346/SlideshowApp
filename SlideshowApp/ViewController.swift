@@ -15,9 +15,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var go: UIButton!
     
     var imageNames = [
-        "takamiya.jpeg",
-        "sakuragi.jpeg",
-        "mitui.jpeg",]
+        "image1.jpg",
+        "image2.jpg",
+        "image3.jpg",]
     // タイマー
     var timer: Timer!
     

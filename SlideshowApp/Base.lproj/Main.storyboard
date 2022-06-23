@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sAT-f8-7MF">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sAT-f8-7MF">
                                 <rect key="frame" x="194" y="504" width="53" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="戻る"/>
@@ -24,7 +24,7 @@
                                     <action selector="backButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OwS-KU-UkF"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WCk-FX-OLt">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WCk-FX-OLt">
                                 <rect key="frame" x="318" y="504" width="53" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="進む"/>
@@ -34,17 +34,14 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yYw-6h-ru2">
                                 <rect key="frame" x="60" y="504" width="53" height="31"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="53" id="YPX-Hw-m9E"/>
-                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="再生"/>
                                 <connections>
                                     <action selector="start:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hh1-Iv-hmO"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oo9-6g-Fzp">
-                                <rect key="frame" x="100" y="132" width="240" height="340"/>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="oo9-6g-Fzp">
+                                <rect key="frame" x="87" y="305" width="240" height="191"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="ECe-6z-Yjb" appends="YES" id="9ZA-pg-UQu"/>
@@ -54,18 +51,15 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yYw-6h-ru2" secondAttribute="bottom" constant="327" id="9I1-s4-QVe"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WCk-FX-OLt" secondAttribute="trailing" constant="43" id="Cf5-j9-rG8"/>
-                            <constraint firstItem="sAT-f8-7MF" firstAttribute="leading" secondItem="yYw-6h-ru2" secondAttribute="trailing" constant="81" id="JwB-Mo-fbT"/>
-                            <constraint firstItem="yYw-6h-ru2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="LiX-Db-Myp"/>
-                            <constraint firstItem="WCk-FX-OLt" firstAttribute="baseline" secondItem="sAT-f8-7MF" secondAttribute="firstBaseline" id="PQz-dj-ybB"/>
-                            <constraint firstItem="oo9-6g-Fzp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="88" id="aIW-35-7ez"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oo9-6g-Fzp" secondAttribute="trailing" constant="74" id="fuM-ab-see"/>
-                            <constraint firstItem="yYw-6h-ru2" firstAttribute="baseline" secondItem="sAT-f8-7MF" secondAttribute="baseline" id="gdv-nu-4sk"/>
-                            <constraint firstItem="WCk-FX-OLt" firstAttribute="leading" secondItem="sAT-f8-7MF" secondAttribute="trailing" constant="71" id="mdN-ui-pBP"/>
-                            <constraint firstItem="sAT-f8-7MF" firstAttribute="baseline" secondItem="WCk-FX-OLt" secondAttribute="baseline" id="mrm-8c-15J"/>
-                            <constraint firstItem="oo9-6g-Fzp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="rn9-v1-cre"/>
-                            <constraint firstItem="oo9-6g-Fzp" firstAttribute="centerX" secondItem="sAT-f8-7MF" secondAttribute="centerX" id="srC-VP-Klu"/>
+                            <constraint firstItem="yYw-6h-ru2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="3Uy-LW-TFX"/>
+                            <constraint firstItem="oo9-6g-Fzp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5Dx-je-PAQ"/>
+                            <constraint firstItem="oo9-6g-Fzp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="261" id="81x-P3-T1O"/>
+                            <constraint firstItem="sAT-f8-7MF" firstAttribute="baseline" secondItem="WCk-FX-OLt" secondAttribute="baseline" id="LuF-ie-ivB"/>
+                            <constraint firstItem="WCk-FX-OLt" firstAttribute="leading" secondItem="sAT-f8-7MF" secondAttribute="trailing" constant="71" id="P7M-AM-b4y"/>
+                            <constraint firstItem="sAT-f8-7MF" firstAttribute="leading" secondItem="yYw-6h-ru2" secondAttribute="trailing" constant="81" id="VXC-kP-BKl"/>
+                            <constraint firstItem="yYw-6h-ru2" firstAttribute="baseline" secondItem="sAT-f8-7MF" secondAttribute="baseline" id="c09-to-1HF"/>
+                            <constraint firstItem="yYw-6h-ru2" firstAttribute="top" secondItem="oo9-6g-Fzp" secondAttribute="bottom" constant="8" id="mgB-l8-dL9"/>
+                            <constraint firstItem="oo9-6g-Fzp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="svJ-t6-ayg"/>
                         </constraints>
                     </view>
                     <connections>
@@ -110,6 +104,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="image1.jpg" width="288" height="191.16000366210938"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
